@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova-acessibilidade-digital</title>
+</head>
+<link rel="stylesheet" href="Style.css">
+
+<body>
+
+
+    <hearder>
+        <!-- Navegação principal aqui. -->
+        <H1>
+            Acessibilidade Digital
+        </H1>
+        <img src="Simbolo de acessibilidade.jpg" alt="Símbolo de acessibilidade." title="Símbolo de acessibilidade.">
+
+    </hearder>
+
+
+    <nav>
+        <h3> Esse site possuí leitura em libras. </h3>
+    </nav>
+
+
+    <main>
+
+
+        <!-- Aqui é onde contém um artigo. -->
+
+
+        <article>
+
+            <!-- Título abaixo.-->
+            
+            <h2>O que é Acessibilidade Digital?</h2>
+            <p> Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e portais
+                sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira
+                efetiva com as páginas. <br>
+                As diversas barreiras encontradas nos sítios eletrônicos atingem principalmente as pessoas com
+                deficiência. Ao utilizarem a Web e seus recursos, as pessoas com deficiência ou outras limitações,
+                deparam-se com obstáculos que dificultam e, muitas vezes, impossibilitam o acesso aos conteúdos e
+                páginas. <br>
+                No Brasil, segundo o Censo Demográfico do IBGE de 2010, há aproximadamente 45 milhões de pessoas que
+                apresentam pelo menos uma das deficiências investigadas. <br>
+                Esse número representa 23,9% da população brasileira. Um percentual a ser considerado quando discutimos
+                a importância de implementar a acessibilidade nos sítios governamentais. </p>
+
+            <!-- Aqui é um título e logo abaixo será o conteúdo.-->
+
+            <h2>Quais as vantagens e os benefícios da acessibilidade digital? </h2>
+            <ul>
+                <li>Quando o acesso é para todos</li>
+                <p>A implementação da acessibilidade digital democratiza o acesso, garantindo o entendimento e o
+                    controle da navegação dos usuários aos conteúdos e serviços do governo, independentemente das suas
+                    capacidades físico-motoras e perceptivas, culturais e sociais.</p>
+                <li>Inclusão digital e social</li>
+                <p>O computador e a Internet representam um enorme passo para a inclusão de pessoas, em especial aquelas
+                    com deficiência, que podem estudar, trabalhar, fazer compras, pagar contas, compartilhar
+                    experiências e conhecimento, sem necessidade de deslocamento.</p>
+                <li>Aumenta o acesso ao site</li>
+                <p>Páginas acessíveis são mais facilmente indexadas por mecanismos de busca, são compatíveis com uma
+                    maior variedade de aplicativos, além de serem mais fáceis e rápidas para navegar, beneficiando,
+                    assim, a todas as pessoas, incluindo pessoas idosas, sem habilidade para usar a internet, que
+                    utilizam dispositivos móveis etc.</p>
+            </ul>
+        </article>
+
+
+        <aside>
+            <h2>Quais são os tipos de acessibilidade digital?</h2>
+            <!-- Conteúdo a parte fica aqui.-->
+            <ol>
+                <li>Perceptível</li>
+                <p>Todos os elementos, incluindo as informações gráficas e textuais da página, devem estar perceptíveis
+                    aos sentidos. Nada pode estar invisível ou escondido. </p>
+                <li>Operável</li>
+                <p>Os botões, controles e outros elementos interativos da página, devem ser operados com cliques e
+                    outras adaptações, como: rolando, deslizando, comando de voz e outros dispositivos assistivos. </p>
+                <li>Compreensível</li>
+                <p>Todas as informações disponíveis, incluindo botões e seus direcionamentos, devem estar apresentadas
+                    de forma lógica e compreensível para todos os usuários. </p>
+                <li>Robusto</li>
+                <p>O conteúdo da página deve ser compatível com todos os dispositivos, incluindo as tecnologias
+                    assistivas. </p>
+            </ol>
+            <br>
+            <br>
+            <h3> Segue um vídeo falando sobre acessibilidade digital: </h3>
+            <video width="640" height="360" controls>
+                <source src="X2Download.app-Acessibilidade digital _ Edição Extra - Outubro de 2020(720p).mp4"
+                    type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+
+
+        </aside>
+
+
+    </main>
+
+
+    <footer>
+        <!-- Conteúdo do rodapé aqui -->
+        Site feito por Alan (Roy) - todos os direitos reservados
+        <!-- Site formatado -->
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+
+    <img src="https://cdn-icons-png.flaticon.com/512/5558/5558226.png"
+        alt="Símbolo do darkmode representado por um eclipse prestes a acontecer."
+        title="Símbolo do dark mode - clique aqui para deixar no modo escuro. Clique aqui outra vez para voltar ao modo claro."
+        onclick="darkMode()" />>
+    <script>
+        function darkMode() {
+            let minhaImagem = document.querySelector('img');
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            let meuSrc = minhaImagem.getAttribute('src');
+            if (meuSrc === 'https://w7.pngwing.com/pngs/622/931/png-transparent-computer-icons-encapsulated-postscript-symbol-cafe-miscellaneous-text-logo.png') {
+            } else {
+
+            }
+        }
+    </script>
+
+    <!-- Código desenvolvido coma ajuda do ChatGPT.-->
+
+    </main>
+    </hearder>
+</body>
+
+</html>

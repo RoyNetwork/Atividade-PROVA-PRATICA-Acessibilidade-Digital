@@ -1,0 +1,87 @@
+Hearder {
+    text-align: center;
+    font-family:cursive;
+}
+
+Nav {
+    text-align: center;
+    font-family:cursive;
+}
+
+aside {
+    text-align: left;
+    color:rgb(180, 220, 255);
+    font-family:cursive;
+    font-size: larger;
+
+}
+
+
+H1 {
+    background-color: darkblue;
+    color:aliceblue;
+    font-family:cursive;
+}
+
+Body {
+    background-color: rgb(42, 104, 83)
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+    background-color:rgb(20, 14, 112);
+    text-align: center;
+    font-family:cursive;
+}
+
+h3 {
+    text-align: center;
+    font-family: Comic Sans MS;
+    color:aliceblue
+}
+
+    img {
+        display: block;
+        margin: auto;
+      }
+
+      ul {
+        text-align: left;
+        color:rgb(165, 213, 255);
+        font-family:cursive;
+      }
+
+      p {
+        font-size:large;
+        color: rgb(255, 255, 255);
+        font-family:cursive;
+        text-align: left;
+        
+      }
+
+      ul {
+        font-size:larger;
+
+      }
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+        img {
+            width: 100px;
+        }
+
+        footer {
+            color:aliceblue;
+            background-color:darkblue;
+            font-size: large;
+            text-align: center;
+            font-family: Comic Sans MS;
+        }
+
+
